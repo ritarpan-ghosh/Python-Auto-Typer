@@ -8,7 +8,7 @@ new_line = input("Do you want a new line of enter after every line ? (y/n): ")
 print("You have only 10 seconds left to place the cursor.")
 
 num = 0
-time.sleep(5)
+time.sleep(10)
 while(num<times):
     pyautogui.PAUSE = 0.01
     pyautogui.write(msg, interval=0.15)
